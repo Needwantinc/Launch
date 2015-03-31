@@ -1,0 +1,23 @@
+{
+  "name": "launch-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production harp server ./.build -p $PORT",
+    "dev": "harp server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idigit/Launch.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/idigit/Launch/issues"
+  },
+  "homepage": "https://github.com/idigit/Launch",
+  "dependencies": {
+    "harp": "^0.15.2"
+  }
+}

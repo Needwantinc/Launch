@@ -90,9 +90,11 @@ header {
     text-transform: uppercase;
     font-family: 'Avenir LT W01_85 Heavy';
     font-size: 14px;
-    display: block;
+    display: inline-block;
     margin-bottom: 40px;
     letter-spacing: 1px; }
+    header #read:hover {
+      opacity: .8; }
 
 .button {
   background: #03d79f;

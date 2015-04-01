@@ -96,9 +96,12 @@ header {
     text-transform: uppercase;
     font-family:'Avenir LT W01_85 Heavy';
     font-size: 14px;
-    display: block;
+    display: inline-block;
     margin-bottom: 40px;
     letter-spacing: 1px;
+    &:hover {
+      opacity: .8;
+    }
   }
 }
 
